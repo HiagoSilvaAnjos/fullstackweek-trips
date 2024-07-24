@@ -21,7 +21,7 @@ const TripSearch = () => {
           />
           <CurrencyInput placeholder="Orçamento" />
         </div>
-        <Button>Buscar</Button>
+        <Button variant="primary">Buscar</Button>
       </div>
     </div>
   );

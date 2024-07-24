@@ -33,7 +33,9 @@ const TripReservation = ({ trip }: TripReservationProps) => {
       </div>
 
       <div className="pb-10  border-b-2 border-l-grayLighter w-full">
-        <Button className="mt-3 w-full">Reservar agora</Button>
+        <Button variant="primary" className="mt-3 w-full">
+          Reservar agora
+        </Button>
       </div>
     </div>
   );
