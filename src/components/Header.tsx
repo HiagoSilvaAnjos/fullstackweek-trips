@@ -50,7 +50,7 @@ function Header() {
           />
 
           {menuIsOpen && (
-            <div className="absolute top-14 left-0 w-full h-full bg-white rounded-full flex items-center justify-center shadow">
+            <div className="z-50 absolute top-14 left-0 w-full h-full bg-white rounded-full flex items-center justify-center shadow">
               <button
                 onClick={handleSignOutClick}
                 className="text-primary text-xs font-semibold"
